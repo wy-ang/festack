@@ -5,12 +5,12 @@
 	</div>
 </template>
 <script>
-	import Header from './header/header.vue'
+	import Header from './page/header/header.vue'
 	export default {
 		name: 'home',
 		/* 这个name暂时不知道用啥用，根据官方文档说的是方便排错的 */
 		components: {
-			'iview-header':Header
+			'iview-header': Header
 		}
 	}
 </script>

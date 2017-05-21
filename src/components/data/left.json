@@ -1,0 +1,29 @@
+{
+	"major": [
+		{
+			"id": "001",
+			"parentName": "html",
+			"majorList": [
+				{
+					"name": "结构化"
+				}
+			]
+		}, {
+			"id": "002",
+			"parentName": "css",
+			"majorList": [
+				{
+					"name": "结构与样式分离"
+				}
+			]
+		}, {
+			"id": "003",
+			"parentName": "javascript",
+			"majorList": [
+				{
+					"name": "数据类型"
+				}
+			]
+		}
+	]
+}

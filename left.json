@@ -1,0 +1,62 @@
+{
+	"festack": [
+		{
+			"id": "001",
+			"parentName": "html",
+			"majorList": [
+				{
+					"name": "语义化"
+				},
+				{
+					"name": "结构化"
+				},
+				{
+					"name": "结构与样式分离"
+				}
+			]
+		}, {
+			"id": "002",
+			"parentName": "css",
+			"majorList": [
+				{
+					"name": "less"
+				}
+			]
+		}, {
+			"id": "003",
+			"parentName": "javascript",
+			"majorList": [
+				{
+					"name": "变量"
+				},
+				{
+					"name": "表达式"
+				},
+				{
+					"name": "控制语句"
+				},
+				{
+					"name": "对象"
+				},
+				{
+					"name": "函数"
+				},
+				{
+					"name": "操作"
+				},
+				{
+					"name": "函数式编程"
+				},
+				{
+					"name": "VO"
+				},
+				{
+					"name": "Object.defineProperty"
+				},
+				{
+					"name": "设计模式"
+				}
+			]
+		}
+	]
+}
