@@ -25,14 +25,20 @@ var proxyTable = config.dev.proxyTable
 var app = express()
 
 /* datura接口 20170302 */
-var appData = require('../left.json')  /* 引入根目录下goods.json数据文件 */
-var festacks = appData.festack   /* goods.json文件文件下的.goods数据赋值给变量goods */
+var appData = require('../src/data/left.json')  /* 引入根目录下goods.json数据文件 */
+var basis = appData.basis   /* goods.json文件文件下的.goods数据赋值给变量goods */
+var senior = appData.senior
 var apiRoutes = express.Router()  /* 定义express.Router() 对象 */
-apiRoutes.get('/left', function(req, res){   /* 定义接口并返回数据 */
+apiRoutes.get('/basis', function(req, res){   /* 定义接口并返回数据 */
   res.json({
-    data: festacks
+    data: basis
   })
-})
+});
+apiRoutes.get('/senior', function(req, res){   /* 定义接口并返回数据 */
+  res.json({
+    data: senior
+  })
+});
 app.use('/api', apiRoutes)  /* 定义接口在/api目录下，方便管理 */
 /* datura接口 _end */
 

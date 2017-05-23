@@ -5,7 +5,7 @@
 				<div class="head-l">
 					<el-menu theme="dark" :default-active="activeIndex" class="el-menu-demo" mode="horizontal" @select="handleSelect">
 						<el-menu-item index="0">
-								<router-link to="/">首页</router-link>
+							<router-link to="/">首页</router-link>
 						</el-menu-item>
 						<el-submenu index="1">
 							<template slot="title">专业技能</template>
@@ -51,10 +51,11 @@
 </script>
 
 <style scoped="scoped">
-	a{
+	a {
 		color: #bfcbd9;
 		text-decoration: none;
 	}
+	
 	.header {
 		height: 60px;
 		background-color: #324157;

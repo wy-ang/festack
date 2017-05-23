@@ -1,0 +1,144 @@
+{
+	"basis": [
+		{
+			"id": "001",
+			"parentName": "html",
+			"majorList": [
+				{
+					"name": "语义化"
+				},
+				{
+					"name": "结构化"
+				},
+				{
+					"name": "结构与样式分离"
+				}
+			]
+		}, {
+			"id": "002",
+			"parentName": "css",
+			"majorList": [
+				{
+					"name": "权重"
+				},
+				{
+					"name": "盒子模型"
+				},
+				{
+					"name": "分组与嵌套"
+				},
+				{
+					"name": "伪元素"
+				}
+			]
+		}, {
+			"id": "003",
+			"parentName": "javascript",
+			"majorList": [
+				{
+					"name": "变量"
+				},
+				{
+					"name": "表达式"
+				},
+				{
+					"name": "控制语句"
+				},
+				{
+					"name": "对象"
+				},
+				{
+					"name": "函数"
+				},
+				{
+					"name": "操作"
+				},
+				{
+					"name": "函数式编程"
+				},
+				{
+					"name": "VO"
+				},
+				{
+					"name": "Object.defineProperty"
+				},
+				{
+					"name": "设计模式"
+				}
+			]
+		}
+	],
+	"senior": [
+		 {
+			"id": "001",
+			"parentName": "html5",
+			"majorList": [
+				{
+					"name": "canvas"
+				},{
+					"name": "svg"
+				}
+			]
+		}, {
+			"id": "002",
+			"parentName": "css3",
+			"majorList": [
+				{
+					"name": "2D"
+				},
+				{
+					"name": "3D"
+				},
+				{
+					"name": "过渡"
+				},
+				{
+					"name": "动画"
+				},
+				{
+					"name": "弹性盒子"
+				}
+			]
+		}, {
+			"id": "003",
+			"parentName": "ES2015",
+			"majorList": [
+				{
+					"name": "变量的解构赋值"
+				},{
+					"name": "数据类型扩展"
+				}, {
+					"name": "Symbol"
+				}, {
+					"name": "Set 和 Map 数据结构"
+				}, {
+					"name": "Proxy"
+				}, {
+					"name": "Reflect"
+				}, {
+					"name": "async 函数"
+				}, {
+					"name": "Class"
+				}, {
+					"name": "Module"
+				}
+			]
+		}, {
+			"id": "004",
+			"parentName": "http",
+			"majorList": [
+				{
+					"name": "http协议"
+				}
+			]
+		}, {
+			"id": "005",
+			"parentName": "linux",
+			"majorList": [
+				{
+					"name": "命令"
+				}
+			]
+		}
+	]
+}
