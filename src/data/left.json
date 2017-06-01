@@ -2,7 +2,7 @@
 	"basis": [
 		{
 			"id": "001",
-			"parentName": "html",
+			"parentName": "基础知识",
 			"majorList": [
 				{
 					"name": "语义化"
@@ -16,7 +16,7 @@
 			]
 		}, {
 			"id": "002",
-			"parentName": "css",
+			"parentName": "进阶知识",
 			"majorList": [
 				{
 					"name": "权重"
